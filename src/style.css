@@ -1,0 +1,31 @@
+:root {
+    --background-color: #000000;
+    --text-color: #603678;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+#header {
+    text-align: center;
+    color: var(--text-color);
+    margin-top: 50px;
+    font-size: 50px;
+    transition: transform .4s;
+}
+
+#header:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    cursor: pointer;
+}
